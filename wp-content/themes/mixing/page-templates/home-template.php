@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page
+Template Name: HOME
  */
 ?>
 <!-- home  -->
@@ -10,10 +10,8 @@ Template Name: Page
 <?php get_header();?>
 <?php get_template_part('nav');?>
 <main>
+	<!-- <?php the_content(); ?> -->
 	<div class="container-fluid">
-		<!-- background-1 -->
-		<div class="right_decorate"></div>
-		<div class="left_decorate"></div>
 		<!-- 焦點文章 -->
 		<?php get_template_part('post-content/point');?>
 		<!-- 專題文章 -->

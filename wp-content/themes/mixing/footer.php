@@ -72,5 +72,19 @@
         </div>
     </div>
 </footer>
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+  $("#myNav").css("width", "50%");
+  // document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  $("#myNav").css("width", "0%");
+  // $("#myNav").style.width = "0%";
+  // document.getElementById("myNav").style.width = "0%";
+}
+</script>
 </body>
 </html>

@@ -27,8 +27,8 @@ $(document).ready(function() {
     margin: 5,
     autoplayTimeout: 5500,
     navText: [
-      "<img src='../wp-content/themes/clabo/assets/img/icon-prev.png'>",
-      "<img src='../wp-content/themes/clabo/assets/img/icon-next.png'>"
+      "<img src='../wp-content/themes/mixing/assets/img/icon-prev.png'>",
+      "<img src='../wp-content/themes/mixing/assets/img/icon-next.png'>"
     ],
     responsive: {
       0: {

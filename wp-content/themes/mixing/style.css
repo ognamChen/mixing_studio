@@ -7,13 +7,11 @@ Description: Twenty Seventeen brings your site to life with immersive featured i
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentyseventeen
-Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+Text Domain: MixingStudio
+Tags: Create by Ognam Studio
 */
 
-/* basic start */
+/* basic s */
 @font-face {
   font-family: icomoon;
   src: url("../../fonts/icomoon/icomoon.eot?ko039g");
@@ -22,7 +20,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     url("../../fonts/icomoon/icomoon.ttf?ko039g") format("truetype"),
     url("../../fonts/icomoon/icomoon.woff?ko039g") format("woff"),
     url("../../fonts/icomoon/icomoon.svg?ko039g#icomoon") format("svg");
-  /* font-weight: 400; */
   font-style: normal;
 }
 
@@ -33,26 +30,17 @@ html {
 
 body {
   font-family: Noto Sans TC, sans-serif;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: #1D4A58;
   word-break: break-word;
-  color: rgba(0, 0, 0, 1);
+  color: #f8f9fa;
 }
 
 section {
-  /* border-bottom: 1px solid rgba(170, 170, 170, 0.5);
-  border-top: 1px solid rgba(170, 170, 170, 0.5); */
   margin-bottom: -1px;
-  /* padding: 15px 0; */
-}
-
-section#point {
-  padding: 0px;
-  /* border-bottom: 1px solid rgb(170, 170, 170); */
 }
 
 p {
   font-weight: 400;
-  color: #1b1e21;
 }
 
 a {
@@ -73,72 +61,45 @@ video {
 h1,
 h2,
 h3 {
-  /* padding: 10px; */
-  color: #1b1e21 !important;
+  font-weight: 400;
 }
+/* basic end */
 
+/* bootstrap s */
 .container-fluid {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
-  /* margin-right: auto; */
-  /* margin-left: auto;*/
 }
 
 blockquote {
   display: block;
-  /* margin: unset !important; */
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
 }
-/* basic end */
+/* bootstrap e */
 
 /* header start */
 header {
   border-bottom: 1px solid rgba(170, 170, 170, 1);
-  /* background: rgba(245, 245, 245, 1);
-  position: fixed;
-  width: 100vw;
-  z-index: 999; */
 }
 
-.header_img {
-  display: inline-block;
-}
-
-.header_img img {
-  width: 350px;
-  padding: 20px;
-}
-
-@media (max-width: 576px) {
-  .header_img img {
-    width: 300px;
-    padding: 0;
-  }
+.header_logo {
+  padding: 10px;
+  font-size: 20px;
 }
 /* heder end */
 
 /* sideMenu start */
 .sideMenuBtn {
-  display: inline-block;
-  /* position: fixed; */
+  padding: 10px;
+  font-size: 20px;
   float: right;
-  /* top: 0px; */
-  /* right: 30px; */
-  width: 60px;
-  height: 60px;
-  background: url(../clabo/assets/img/icon-menu.png);
-  background-size: 60px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  margin: 20px;
   z-index: 10;
-  /* opacity: 0.8; */
-  background-color: rgba(245, 245, 245, 1);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .sideMenuBtn.JQscroll {
@@ -240,7 +201,7 @@ header {
   height: 140px;
   top: 45%;
   right: 10px;
-  background: url(../clabo/assets/img/icon-2.png);
+  background: url(../mixing/assets/img/icon-2.png);
   background-size: 40px;
   background-repeat: no-repeat;
 }

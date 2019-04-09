@@ -3,13 +3,14 @@
         <div class="row">
             <div class="col-sm-6 col-8">
                 <a href="<?php echo get_home_url(); ?>">
-                    <h1 class="header_img">
+                    <!-- <h1 class="header_img">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/assets/img/Logo.png"; ?>" alt="">
-                    </h1>
+                    </h1> -->
+                    <div class="header_logo">彌聲</div>
                 </a>
             </div>
             <div class="col-sm-6 col-4">
-                <div class="sideMenuBtn" onclick="openNav()"></div>
+                <div class="sideMenuBtn" onclick="openNav();"><i class="fas fa-bars"></i></div>
                 <div class="clearfix"></div>
             </div>
         </div> <!-- row end -->
